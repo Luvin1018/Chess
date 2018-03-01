@@ -9,7 +9,7 @@ public class Rook extends Chess
         this.color=color;
     }
     
-    public String totring(){
+    public String toString(){
         return color+"R     ";
     }
 }
