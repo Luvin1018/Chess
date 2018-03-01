@@ -8,6 +8,6 @@ public class Bishop extends Chess
         this.color=color;
     }
     public String toString(){
-        return color+"S    ";
+        return color+"S     ";
     }
 }
