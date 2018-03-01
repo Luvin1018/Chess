@@ -1,0 +1,13 @@
+public class Bishop extends Chess
+{
+    private String color;
+    private int x;
+    private int y;
+    public Bishop(String color)
+    {
+        this.color=color;
+    }
+    public String toString(){
+        return color+"S    ";
+    }
+}
