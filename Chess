@@ -1,0 +1,11 @@
+public class Chess
+{
+    private String color;
+    Chess(){
+        
+    }
+    
+    public String toString(){
+        return "       ";
+    }
+}
