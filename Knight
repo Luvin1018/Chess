@@ -1,9 +1,9 @@
 public class Knight extends Chess
 {
     private String color;
-    Knight(String var)
+    Knight(String color)
     {
-        color=var;
+        this.color=color;
     }
     public String toString()
     {
