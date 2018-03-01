@@ -1,12 +1,12 @@
-public class Knight
+public class Knight extends Chess
 {
-    String color;
+    private String color;
     Knight(String var)
     {
         color=var;
     }
     public String toString()
     {
-        return color+"Kn";
+        return color+"Kn    ";
     }
 }
