@@ -10,14 +10,5 @@ public class Bishop extends Chess
     public String toString(){
         return color+"S     ";
     }
-    public Bishop creat(String color)
-   {
-        if(checkNumber())
-        {
-            return new Bishop(color);
-        }
-        else{
-            throw new Error("more than 32 ");
-        }
-   }
+   
 }
