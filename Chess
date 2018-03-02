@@ -1,10 +1,20 @@
+
 public class Chess
 {
     private String color;
+    protected static int number=0;
     Chess(){
         
+        
     }
-    
+    public boolean checkNumber(){
+        if(number<32){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
     public String toString(){
         return "       ";
     }
