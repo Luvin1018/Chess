@@ -2,13 +2,13 @@
 public class Chess
 {
     private String color;
-    protected static int number=0;
+    protected static int num=0;
     Chess(){
         
         
     }
-    public boolean checkNumber(){
-        if(number<32){
+    public boolean checkNum(){
+        if(num<32){
             return true;
         }
         else{
