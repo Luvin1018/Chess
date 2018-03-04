@@ -12,7 +12,7 @@ public class King extends Chess
    {
         return color+"Ki    ";
    }
-   public King creat(String color)
+   public static King creat(String color)
    {
         if(checkNum())
         {
