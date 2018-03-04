@@ -12,7 +12,7 @@ public class Queen extends Chess
    {
         return color+"Q     ";
    }
-   public Queen creat(String color)
+   public static Queen creat(String color)
    {
         if(checkNum())
         {
