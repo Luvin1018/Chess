@@ -3,6 +3,7 @@ public class Chess
     private String color="none";
     private int x;
     private int y;
+    protected static int num;
     Chess(){
     }
     public String toString(){
